@@ -2,7 +2,7 @@ import ReleaseTransformations._
 import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType}
 
 def ScalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.3"
-def ScalaProps = "com.github.scalaprops" %% "scalaprops" % "0.8.0"
+def ScalaProps = "com.github.scalaprops" %% "scalaprops-gen" % "0.8.0"
 def Claimant = "org.typelevel" %% "claimant" % "0.1.3"
 
 lazy val antimirovSettings = Seq(
